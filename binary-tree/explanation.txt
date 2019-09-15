@@ -1,0 +1,26 @@
+binary tree visual
+
+                                1(20)
+                    2(19)                   3(17)
+                4(13)     5(15)       6(8)             7(5)                       
+
+There are two search algorithms exist for binary tree: 
+    1. breadth-first search (BFS) and 
+    2. depth-first search (DFS).
+
+"BFS search" nodes level by level, starting from the root node. Then checking its children. Then children for children and so on. Until all nodes are processed or node which satisfies search condition is found.
+
+"DFS behave" differently. It checks all nodes from leftmost path from the root to the leaf, then jumps up and check right node and so on.
+
+// good diagrams and explation
+http://mishadoff.com/blog/dfs-on-binary-tree-array/
+
+
+// good description with formula to get the index @ 03:00
+https://www.youtube.com/watch?v=dM_JHpfFITs
+
+left child : i*2 (2*2)
+right child: i*2+1 (2*2+1)
+parent : i/2 (round off) (2/2)
+
+
