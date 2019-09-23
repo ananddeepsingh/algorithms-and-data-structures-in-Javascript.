@@ -31,11 +31,11 @@ function merge(left, right) {
     // We will concatenate values into the resultArray in order
     while (leftIndex < left.length && rightIndex < right.length) {
         if (left[leftIndex] < right[rightIndex]) {
-            resultArray.push(left[leftIndex]);
-            leftIndex++; // move left array cursor
+            resultArray.push(left[leftIndex++]);
+            // leftIndex++; // move left array cursor
         } else {
-            resultArray.push(right[rightIndex]);
-            rightIndex++; // move right array cursor
+            resultArray.push(right[rightIndex++]);
+            // rightIndex++; // move right array cursor
         }
     }
 
